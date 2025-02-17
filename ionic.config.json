@@ -1,0 +1,7 @@
+{
+  "name": "breakaways-app",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
