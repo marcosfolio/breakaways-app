@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Honk&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prosto+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+
+body {
+    font-family: "Funnel Sans", serif;
+}
+
+:host ion-content ion-list ion-item ion-label h3,
+.ion-page ion-content ion-list ion-item ion-label h3,
+page-home ion-item ion-label h3,
+app-home ion-item ion-label h3 {
+    align-items: center;
+    font-family: 'Funnel Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1em;
+    margin: 0 0 5px;
+    display: flex;
+}
+
+/* Add specific color for first place rider name */
+:host ion-content ion-list ion-item ion-label h3,
+.ion-page ion-content ion-list ion-item .first-place ion-label h3,
+page-home ion-item .first-place ion-label h3,
+app-home ion-item .first-place ion-label h3 {
+    color: #ffed6c;
+}
+
+ion-avatar {
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+}
+
+.team-photo {
+    width: 24px;
+    height: 24px;
+    margin-right: 4px;
+}
+
+/* If you want to make the standalone team photo smaller too */
+ion-item img[alt*="team"] {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+}
+
+.difference {
+    color: var(--ion-color-danger);
+    margin-left: 8px;
+    font-size: 0.9em;
+    display: flex;
+    justify-content: end;
+}
+
+.difference ion-icon {
+    vertical-align: middle;
+    margin-right: 2px;
+}
+
+.position-wrapper {
+    left: 8px;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+}
+
+.position-icon {
+    font-size: 21px;
+    margin: 0 5px 0 2px;
+}
+
+.position-icon.gold {
+    color: #FFD700;
+}
+
+.position-icon.silver {
+    color: #C0C0C0;
+}
+
+.position-icon.bronze {
+    color: #CD7F32;
+}
+
+.position-number {
+    --background: var(--ion-color-medium);
+    font-size: 0.8em;
+    width: 21px;
+    height: 21px;
+    border-radius: 25px;
+    margin: 0 5px 0 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ion-item ion-label {
+    margin-left: 5px;
+}
+
+.leader-kilometers {
+    font-family: 'Funnel Sans', sans-serif;
+    font-size: 2em;
+    font-weight: 700;
+    color: var(--ion-color-dark);
+}
+
+.kilometers {
+    font-family: 'Funnel Sans', sans-serif;
+    font-size: 1.2em;
+    display: flex;
+    justify-content: end;
+    font-weight: 700;
+    color: var(--ion-color-dark);
+}
+
+.podium-wrapper {
+    background: #636363;
+    padding: 80px 20px 0 20px;
+    border-radius: 16px;
+    margin-bottom: 20px;
+}
+
+.podium {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 10px;
+    height: 240px;
+}
+
+.podium-bar {
+    width: 100px;
+    background: #3f3f3f;
+    border-radius: 8px 8px 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    transition: height 0.3s ease;
+}
+
+/* Update the vertical dashed line to stop before kilometers */
+.podium-bar::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    height: calc(100% - 105px);
+    border-left: 10px dashed #f7efef;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.first-place {
+    height: 100%;
+}
+
+.second-place {
+    height: 75%;
+}
+
+.third-place {
+    height: 50%;
+}
+
+.podium-avatar {
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 4px solid #ffd602;
+    position: absolute;
+    top: -42px;
+    background: white;
+    border: 4px solid;
+}
+
+.podium-avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Add these new styles for each position's avatar */
+.first-place .podium-avatar {
+    border-color: #ffd602;
+}
+
+.second-place .podium-avatar {
+    border-color: #C0C0C0;
+}
+
+.third-place .podium-avatar {
+    border-color: #CD7F32;
+}
+
+.podium-kilometers {
+    font-family: 'Anton', sans-serif;
+    color: #ffed6c;
+    font-weight: bold;
+    font-size: 2.2em;
+    font-style: italic;
+    letter-spacing: 2.5px;
+    margin: 50px 3px 0 0;
+}
+
+.podium-position {
+    font-family: 'Honk', system-ui;
+    position: absolute;
+    top: -80px;
+    font-size: 2em;
+    font-weight: bold;
+    color: white;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+    z-index: 2;
+}
+
+/* Add this new style */
+ion-toolbar ion-title {
+    padding: 0 25px;
+    font-family: 'Shrikhand', cursive;
+    font-size: 2em;
+    background: linear-gradient(270deg, #ffff80, #ffca54, #ff3daf, #ff617c);
+    background-size: 300% 300%;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: gradient 10s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+/* Add styles for team names */
+ion-item ion-label p {
+    font-family: 'Funnel Sans', sans-serif;
+    margin: 0;
+    font-size: 0.9em;
+    display: flex;
+    align-items: center;
+}
+
+.first-place h3 {
+    color: #ffed6c;
+}
+
+ion-item {
+    --padding-start: 5px;
+    --padding-end: 5px;
+    --inner-padding-start: 5px;
+    --inner-padding-end: 5px;
+}
+
+ion-text h1 {
+    font-family: 'Prosto One', cursive;
+    margin: 0;
+    padding: 0;
+    color: #bbbbbb;
+    font-size: 1em;
+    text-align: right;
+}

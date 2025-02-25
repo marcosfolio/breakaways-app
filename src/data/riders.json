@@ -1,0 +1,140 @@
+{
+    "riders": [
+        {
+            "name": "Víctor Vercouillie",
+            "avatar": "/assets/images/victor_vercouille.png",
+            "flag": "🇧🇪",
+            "team": "Flanders - Baloise",
+            "team-photo": "/assets/images/teams/flanders-baloise.png",
+            "kilometers": 517
+        },
+        {
+            "name": "Kongphob Thimachai",
+            "avatar": "/assets/images/kongphob_thimachai.png",
+            "flag": "🇹🇭",
+            "team": "Roojai Insurance",
+            "team-photo": "/assets/images/teams/roojai-insurance.png",
+            "kilometers": 434
+        },
+        {
+            "name": "Kane Richards",
+            "avatar": "/assets/images/kane_richards.png",
+            "flag": "🇦🇺",
+            "team": "Roojai Insurance",
+            "team-photo": "/assets/images/teams/roojai-insurance.png",
+            "kilometers": 427
+        },
+        {
+            "name": "Đorđe Đurić",
+            "avatar": "/assets/images/dorde_duric.png",
+            "flag": "🇷🇸",
+            "team": "Solution Tech Vini Fantini",
+            "team-photo": "/assets/images/teams/vini-fantini.png",
+            "kilometers": 570
+        },
+        {
+            "name": "Carlos Samudio",
+            "avatar": "/assets/images/carlos_samudio.png",
+            "flag": "🇵🇦",
+            "team": "Solution Tech Vini Fantini",
+            "team-photo": "/assets/images/teams/vini-fantini.png",
+            "kilometers": 686
+        },
+        {
+            "name": "Nicolas Tivani",
+            "avatar": "/assets/images/nicolas_tivani.png",
+            "flag": "🇦🇷",
+            "team": "Aviludo - Louletano - Loulé",
+            "team-photo": "/assets/images/teams/aviludo-louletano.png",
+            "kilometers": 462
+        },
+        {
+            "name": "Baptiste Veistroffer",
+            "avatar": "/assets/images/baptiste_veistroffer.png",
+            "flag": "🇫🇷",
+            "team": "Lotto",
+            "team-photo": "/assets/images/teams/lotto.png",
+            "kilometers": 669
+        },
+        {
+            "name": "Manuele Tarozzi",
+            "avatar": "/assets/images/manuele_tarozzi.png",
+            "flag": "🇮🇹",
+            "team": "Bardiani CSF",
+            "team-photo": "/assets/images/teams/bardiani-csf.png",
+            "kilometers": 571
+        },
+        {
+            "name": "Federico Biagini",
+            "avatar": "/assets/images/federico_biagini.png",
+            "flag": "🇮🇹",
+            "team": "Bardiani CSF",
+            "team-photo": "/assets/images/teams/bardiani-csf.png",
+            "kilometers": 400
+        },
+        {
+            "name": "Sinuhé Fernández",
+            "avatar": "/assets/images/sinuhe_fernandez.png",
+            "flag": "🇪🇸",
+            "team": "Burgos Burpellet BH",
+            "team-photo": "/assets/images/teams/burgos-burpellet-bh.png",
+            "kilometers": 371
+        },
+        {
+            "name": "Edgar Curto",
+            "avatar": "/assets/images/edgar_curto.png",
+            "flag": "🇪🇸",
+            "team": "Illes Balears Arabay",
+            "team-photo": "/assets/images/teams/illes-balears-arabay.png",
+            "kilometers": 368
+        },
+        {
+            "name": "Fergus Browning",
+            "avatar": "/assets/images/fergus_browning.png",
+            "flag": "🇦🇺",
+            "team": "CCACHE x BODYWRAP",
+            "team-photo": "/assets/images/teams/ccache-x-bodywrap.png",
+            "kilometers": 323
+        },
+        {
+            "name": "Mohammed Al-Wahibi",
+            "avatar": "/assets/images/mohammed_al-wahibi.png",
+            "flag": "🇴🇲",
+            "team": "Oman",
+            "team-photo": "/assets/images/teams/ccache-x-bodywrap.png",
+            "kilometers": 318
+        },
+        {
+            "name": "Jens Reynders",
+            "avatar": "/assets/images/jens_reynders.png",
+            "flag": "🇧🇪",
+            "team": "Wagner Bazin WB",
+            "team-photo": "/assets/images/teams/wagner-bazin-wb.png",
+            "kilometers": 357
+        },
+        {
+            "name": "Rodrigo Álvarez",
+            "avatar": "/assets/images/rodrigo_alvarez.png",
+            "flag": "🇪🇸",
+            "team": "Burgos Burpellet BH",
+            "team-photo": "/assets/images/teams/burgos-burpellet-bh.png",
+            "kilometers": 303
+        },
+        {
+            "name": "Diego Uriarte",
+            "avatar": "/assets/images/diego_uriarte.png",
+            "flag": "🇪🇸",
+            "team": "Kern Pharma",
+            "team-photo": "/assets/images/teams/kern-pharma.png",
+            "kilometers": 431
+        },
+        {
+            "name": "Rayan Boulahoite",
+            "avatar": "/assets/images/rayan_boulahoite.png",
+            "flag": "🇫🇷",
+            "team": "TotalEnergies",
+            "team-photo": "/assets/images/teams/totalenergies.png",
+            "kilometers": 295
+        }
+    ]
+}
