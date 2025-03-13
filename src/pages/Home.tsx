@@ -15,7 +15,7 @@ import {
 } from '@ionic/react';
 import { arrowDownOutline, medalOutline, trophy } from 'ionicons/icons';
 import './Home.css';
-import ridersData from '../data/riders.json';
+import ridersData from '@/data/riders.json';
 
 const Home = () => {
   // Ordena los riders por kilometraje y obtiene los 10 primeros
